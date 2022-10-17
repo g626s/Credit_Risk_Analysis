@@ -81,4 +81,5 @@ Lastly, we used the _imblearn.ensemble_ library. We _trained and compared two di
   - F1: 0.97
 
 ## Summary 
+In regards to Credit Risk being apart of the financial sector and key player in the financial industry, in this case sensitivity is more valuable than precision for analyzing risk and rates on individuals. Banks historically want and are able to mark and evaluate high-risk individuals as high-risk and vice versa depending on selected factors. All six algorithmns in this project scored very low for high-risk individuals in terms of precision with the highest being the `Easy Ensemble` AdaBoost Classifier with _8%_ precision. This translates to that out of all the customers being marked as high-risk, _8%_ were actually high risk that could be detriment to the firms using these models that lead to inaccuracies and margin of errors for both the firms and customers.
 
