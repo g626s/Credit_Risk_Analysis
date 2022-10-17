@@ -34,7 +34,7 @@ Using our knowledge of the _imbalanced-learn_ and _scikit-learn_ libraries, we e
 
 - Cluster Centroid Undersampling:
 
-The next phase of the prpject was to implement a combinatorial approach of _over- and undersampling_ with the `SMOTEENN algorithm` to determine if the results from the combinatorial approach are better at predicting credit risk than the resampling algorithms from the previous step. Using the `SMOTEENN algorithm`, we _resampled the dataset_, _view the count of the target classes_, _train a logistic regression classifier_, _calculate the balanced accuracy score_, generate a _confusion matrix_, and generate a _classification report_.
+The next phase of the project was to implement a combinatorial approach of _over- and undersampling_ with the `SMOTEENN algorithm` to determine if the results from the combinatorial approach are better at predicting credit risk than the resampling algorithms from the previous step. Using the `SMOTEENN algorithm`, we _resampled the dataset_, _view the count of the target classes_, _train a logistic regression classifier_, _calculate the balanced accuracy score_, generate a _confusion matrix_, and generate a _classification report_.
 
 
 
