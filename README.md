@@ -57,10 +57,10 @@ The next phase of the project was to implement a combinatorial approach of _over
 - SMOTEENN Combination Sampling:
 ![Screen Shot 2022-10-16 at 8 14 10 PM](https://user-images.githubusercontent.com/107281474/196081569-01ad8755-6ada-4924-9824-75238a101f54.png)
 
-  - Balance Accuracy Score: 
-  - Precision: 
-  - Recall: 
-  - F1:
+  - Balance Accuracy Score: 0.61
+  - Precision: 0.99
+  - Recall: 0.59
+  - F1: 0.73
 
 Lastly, we used the _imblearn.ensemble_ library. We _trained and compared two different ensemble classifiers_, `BalancedRandomForestClassifier` and `EasyEnsembleClassifier`, to predict credit risk and evaluate each model. Using both algorithms, we _resampled the dataset_, _view the count of the target classes_, _train the ensemble classifier_, _calculate the balanced accuracy score_, generate a _confusion matrix_, and _generate a classification report_.
 
